@@ -503,6 +503,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5515804905034188336, guid: dc8c8ce4927a5c343ac7225d2a1c558b, type: 3}
+      propertyPath: SizeModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515804905034188336, guid: dc8c8ce4927a5c343ac7225d2a1c558b, type: 3}
+      propertyPath: ColorModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515804905034188336, guid: dc8c8ce4927a5c343ac7225d2a1c558b, type: 3}
+      propertyPath: ColorBySpeedModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7551915771112609467, guid: dc8c8ce4927a5c343ac7225d2a1c558b, type: 3}
       propertyPath: m_Name
       value: BubbleShieldOff (3)
