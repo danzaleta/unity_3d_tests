@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3338147829309942920}
   - component: {fileID: 3338147829309942923}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: BubbleShieldOrangeOn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,7 +90,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3338147829309942922}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
