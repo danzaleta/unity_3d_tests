@@ -8,15 +8,14 @@ public class BubbleShield : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
+        //Debug.Log(other.gameObject.name);
+
         if(other.gameObject.layer == 6)
         {
             DeployShield();
         }
         
     }
-
-
-
 
     void DeployShield()
     {
