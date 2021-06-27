@@ -20,7 +20,7 @@ public class BubbleShield : MonoBehaviour
     void DeployShield()
     {
         //this.gameObject.GetComponent<Rigidbody>().Sleep();
-        Instantiate(shield, this.gameObject.transform.position, this.gameObject.transform.rotation);
-        Destroy(this.gameObject);
+        Instantiate(shield, this.gameObject.transform.position, new Quaternion(0.0f,0.0f,0.0f,0.0f));
+        //Destroy(this.gameObject);
     }
 }
